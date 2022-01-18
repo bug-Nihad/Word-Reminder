@@ -1,0 +1,4 @@
+To run a program in startup, just add a shortcut of that program into folder of below link:
+"C:\Users\Tahsin Sayed\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+
+
