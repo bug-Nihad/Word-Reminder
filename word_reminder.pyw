@@ -5,7 +5,7 @@ from random import randrange
 
 if __name__ == '__main__':
     while True:
-        time.sleep(5*60)
+        
         try:
             df = pd.read_excel('wordlist.xlsx')
             df = df.fillna('Not Available')
@@ -25,3 +25,4 @@ if __name__ == '__main__':
             timeout = 10,
             ticker='Hello'
         )
+        time.sleep(5*60)
