@@ -1,16 +1,17 @@
+
 import time
 from plyer import notification
 import pandas as pd
 from random import randrange
 
 if __name__ == '__main__':
-    while True:
-        
+    while True:  
         try:
             df = pd.read_excel('wordlist.xlsx')
             df = df.fillna('Not Available')
         except:
-            pass
+            time.sleep(5)
+            continue
 
         # Getting number of row and selecting a random row
         row = df.shape[0]
@@ -26,3 +27,4 @@ if __name__ == '__main__':
             ticker='Hello'
         )
         time.sleep(5*60)
+        del df
