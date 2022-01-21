@@ -26,5 +26,5 @@ if __name__ == '__main__':
             timeout = 10,
             ticker='Hello'
         )
-        time.sleep(5*60)
         del df
+        time.sleep(5*60)
